@@ -1,9 +1,9 @@
 {
 	"id": "morgen-tasks",
-	"name": "Morgen Tasks Plugin",
-	"version": "1.0.0",
+	"name": "Morgen Tasks",
+	"version": "1.0.1",
 	"minAppVersion": "0.15.0",
-	"description": "Placeholder to provide instructions for connecting Morgen to an Obsidian vault",
+	"description": "Plan, time block, and track tasks from your vault in any calendar using Morgen.",
 	"author": "Morgen AG",
 	"authorUrl": "https://morgen.so",
 	"isDesktopOnly": true
