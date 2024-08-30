@@ -3,17 +3,18 @@ import { App, Editor, MarkdownView, Modal, Notice, Plugin, PluginSettingTab, Set
 // Remember to rename these classes and interfaces!
 
 interface MyPluginSettings {
-	mySetting: string;
+//	mySetting: string;
 }
 
 const DEFAULT_SETTINGS: MyPluginSettings = {
-	mySetting: 'default'
+//	mySetting: 'default'
 }
 
 export default class MyPlugin extends Plugin {
 	settings: MyPluginSettings;
 
 	async onload() {
+		/*
 		await this.loadSettings();
 
 		// This creates an icon in the left ribbon.
@@ -76,6 +77,7 @@ export default class MyPlugin extends Plugin {
 
 		// When registering intervals, this function will automatically clear the interval when the plugin is disabled.
 		this.registerInterval(window.setInterval(() => console.log('setInterval'), 5 * 60 * 1000));
+		*/
 	}
 
 	onunload() {
@@ -91,6 +93,7 @@ export default class MyPlugin extends Plugin {
 	}
 }
 
+/*
 class SampleModal extends Modal {
 	constructor(app: App) {
 		super(app);
@@ -132,3 +135,4 @@ class SampleSettingTab extends PluginSettingTab {
 				}));
 	}
 }
+*/
