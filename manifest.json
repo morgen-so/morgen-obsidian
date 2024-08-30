@@ -6,6 +6,5 @@
 	"description": "Placeholder to provide instructions for connecting Morgen to an Obsidian vault",
 	"author": "Morgen AG",
 	"authorUrl": "https://morgen.so",
-	"fundingUrl": "https://morgen.so/pricing",
 	"isDesktopOnly": true
 }
