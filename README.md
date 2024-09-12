@@ -20,6 +20,9 @@ status back to Obsidian.
 - Connect multiple calendars, including CalDAVs
 - Available on MacOS, Windows and Linux
 
+## Plugin Features
+ - Declutter your Obsidian task lists by hiding task IDs or replacing them with a simple emoji
+
 ## Requirements
 
  - [Obsidian Tasks Plugin](https://publish.obsidian.md/tasks/Introduction)
@@ -47,6 +50,11 @@ Click "Connect a vault" and find the root directory of the vault you want to con
 
 You can do this by clicking on the context menu item in the top right of the
 task pane. Here you can modify how tasks are grouped, ordered and filtered.
+
+### Step 5: Install this plugin, and gain extra features
+
+Once installed, this plugin provides a setting to control whether to hide IDs in task 
+lists, so that you can sync your tasks without noisy task IDs cluttering your view.
 
 ## Support and Feedback
 
