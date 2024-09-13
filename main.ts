@@ -2,8 +2,6 @@ import { App, Plugin, PluginSettingTab, Setting } from 'obsidian';
 
 import { hideIDsExtension } from 'extension';
 
-// Remember to rename these classes and interfaces!
-
 interface MorgenPluginSettings {
 	decorateIDs: 'show' | 'hide' | 'replace_with_emoji'
 }
@@ -20,7 +18,6 @@ export default class MorgenPlugin extends Plugin {
 
 		this.registerEditorExtension(hideIDsExtension(this.settings));
 
-		// This adds a settings tab so the user can configure various aspects of the plugin
 		this.addSettingTab(new MorgenSettingTab(this.app, this));
 	}
 
