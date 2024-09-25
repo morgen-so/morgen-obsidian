@@ -45,7 +45,13 @@ export default class MorgenPlugin extends Plugin {
 		 */
 		this.registerEditorExtension(hideIDsExtension(this.settings));
 		this.postProcessor = new MorgenTasksPostProcessor(this.settings);
-		this.registerMarkdownPostProcessor((element) => this.postProcessor.postProcess(element));
+		this.registerMarkdownPostProcessor((element) => {
+			try {
+				this.postProcessor.postProcess(element);
+			} catch (e: unknown) {
+				console.error('MorgenPlugin: Error whilst post processing markdown', e);
+			}
+		});
 
 		this.addSettingTab(new MorgenSettingTab(this.app, this));
 	}
